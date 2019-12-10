@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+	</head>
+	<style type="text/css">
+		html,body{
+			margin: 0;
+			padding: 0;
+		}
+		#wrap{
+			display: flex;
+			height: 100vh;
+			align-items: center;
+			justify-content: flex-start;
+			flex-direction:column;
+			background-image: linear-gradient(160deg, #b100ff 20%,#00b3ff 80%);
+		}
+		.item{
+			height: 50px;
+			width: 80vw;
+			border: 1px solid red;
+			margin-top: 10px;
+			padding: 5px;
+		}
+		#title{
+			margin-top: 5vh;
+			height: 15vh;
+			width: 100vw;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#content{
+			height: 60vh;
+			overflow: auto;
+		}
+		#text{
+			color: white;
+			font-size: 2rem;
+		}
+	</style>
+	<body>
+		<div id="wrap">
+			<div id="title">
+				<span id="text">
+					选择样式模板
+				</span>
+			</div>
+			<div id="content">
+				<div class="item"></div>
+				<div class="item"></div>
+				<div class="item"></div>
+				<div class="item"></div>
+				<div class="item"></div>
+				<div class="item"></div>
+				<div class="item"></div>
+				<div class="item"></div>
+			</div>
+		</div>
+		
+	</body>
+</html>
